@@ -1,0 +1,9 @@
+@media screen and (min-width: 576px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+  nav ul {
+    display: flex;
+  }
+}
