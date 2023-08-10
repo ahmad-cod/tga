@@ -1,0 +1,20 @@
+{
+  "name": "rwd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "deploy": "git add . && git commit -m newLesson && git push"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmad-cod/tga.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahmad-cod/tga/issues"
+  },
+  "homepage": "https://github.com/ahmad-cod/tga#readme"
+}
