@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Function scope example</title>
+  </head>
+<body>
+
+  <script>
+    const x = 5;
+
+    function a() {
+      const y = 2;
+      output(y)
+    }
+
+    a();
+    
+    function b() {
+      const z = 3;
+      output(z)
+    }
+    b();
+    
+    function output(value) {
+      const para = document.createElement('p');
+      document.body.appendChild(para);
+      para.textContent = `Value: ${value}`;
+    }
+  </script>
+</body>
+</html>
