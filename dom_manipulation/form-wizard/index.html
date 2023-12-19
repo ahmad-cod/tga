@@ -1,0 +1,45 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Step-by-Step Wizard Form</title>
+</head>
+<body>
+
+<div class="wizard-container">
+    <div id="step1" class="step active">
+        <h2>Step 1</h2>
+        <label for="firstname">Firstname:</label>
+        <input type="text" id="firstname" class="google-form-input">
+        <button class="nextButton">Next</button>
+    </div>
+
+    <div id="step2" class="step">
+        <h2>Step 2</h2>
+        <label for="lastname">Lastname:</label>
+        <input type="lastname" id="lastname" class="google-form-input">
+        <button class="nextButton">Next</button>
+    </div>
+
+    <div id="step3" class="step">
+        <h2>Step 3</h2>
+        <label for="email">Email:</label>
+        <input type="email" id="email" class="google-form-input">
+        <button class="nextButton">Next</button>
+    </div>
+
+    <div id="step4" class="step">
+        <h2>Step 4</h2>
+        <label for="password">Password:</label>
+        <input type="password" id="password" class="google-form-input">
+        <button id="submitButton">Submit</button>
+    </div>
+</div>
+
+<script type="module" src="script.js"></script>
+</body>
+</html>
